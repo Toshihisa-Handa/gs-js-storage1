@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  /* 事前に入れておくとpaddingのサイズがboxの指定に含まれるようになる */
+}
+
+html{
+  font-size: 62.5%;
+  /* これで1rem=10pxに */
+}
+
+ul{
+  list-style: none;
+   display: flex;
+   justify-content: space-around;
+}
+li{
+  padding:1rem;
+font-size: 2rem;
+background-color: peachpuff;
+border:3px solid paleturquoise;
+/* outline: none!important; */
+}
+li:active{
+  background-color: yellow;
+  color:red;
+  /* outline: none!important; */
+
+}
+
+main{
+  width: 100%;
+
+}
+
+textarea{
+  width: 80%;
+  height: 400px;
+margin-left: 10%;
+}
